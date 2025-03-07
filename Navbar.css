@@ -1,0 +1,23 @@
+nav {
+  background: linear-gradient(135deg, #2c3e50, #418089);
+  padding: 15px;
+  color: rgb(207, 29, 29);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: rgb(21, 10, 10);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #f39c12;
+}
