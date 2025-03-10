@@ -1,0 +1,49 @@
+.store-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .store-list {
+    background: rgb(95, 196, 254);
+    padding-left: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+  }
+  .store-list h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  .stores {
+    background: rgb(28, 66, 163);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 1, 1, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .store-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .store-card h3 {
+    margin-bottom: 10px;
+    color: #08090a;
+  }
+  .store-card p {
+    color: #11191a;
+  }
+  .rating {
+    font-size: 20px;
+    color: #f39c12;
+  }
+    .store-card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }  
